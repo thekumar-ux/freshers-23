@@ -44,10 +44,10 @@ export function Approach() {
         <p className="text-sm lg:text-base  max-w-2xl  my-4 mx-auto text-neutral-500 text-center font-normal dark:text-neutral-300">
           Purnea College of Engineering, established in 2017 and affiliated with
           Bihar Engineering University, offers B.Tech programs in various
-          engineering disciplines. The college, inaugurated by Bihar's Chief
-          Minister in 2019, has AICTE-approved courses with intake capacities of
-          30 for Mechanical and Mechatronics Engineering and 60 for other
-          programs.
+          engineering disciplines. The college, inaugurated by Bihar&apos;s
+          Chief Minister in 2019, has AICTE-approved courses with intake
+          capacities of 30 for Mechanical and Mechatronics Engineering and 60
+          for other programs.
         </p>
       </div>
 
