@@ -12,41 +12,6 @@ function Contact() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    setLoading(true);
-    setError(null);
-    setResponse(null);
-
-    try {
-      const res = await fetch('/api/send-message', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          name,
-          email,
-          message,
-        }),
-      });
-
-      const data = await res.json();
-
-      if (res.ok) {
-        setResponse(data.message);
-        setName('');
-        setEmail('');
-        setMessage('');
-      } else {
-        setError(data.message || 'Something went wrong. Please try again.');
-      }
-    } catch (error) {
-      setError('Failed to send message. Please try again.');
-    } finally {
-      setLoading(false);
-    }
-  };
   return (
     <div className="mt-[7rem] max-w-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black">
       <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200">
@@ -57,7 +22,7 @@ function Contact() {
         whatever you need.
       </p>
 
-      <form className="my-8" onSubmit={handleSubmit}>
+      <form className="my-8">
         <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
           <LabelInputContainer>
             <Label htmlFor="firstname">Name</Label>
