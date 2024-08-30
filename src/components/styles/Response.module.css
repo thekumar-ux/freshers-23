@@ -1,0 +1,27 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.responsesList {
+  list-style: none;
+  padding: 0;
+}
+
+.responseItem {
+  background-color: #f9f9f9;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 5px;
+  color: black;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.responseItem h2 {
+  margin-top: 0;
+}
+
+.error {
+  color: red;
+}
