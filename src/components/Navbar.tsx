@@ -22,7 +22,7 @@ export function Navbar({ className }: { className?: string }) {
         <MenuItem setActive={setActive} active={active} item="Events">
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/events">All Events</HoveredLink>
-            <HoveredLink href="/events">Sport's Events</HoveredLink>
+            <HoveredLink href="/events">Sport&apos;s Events</HoveredLink>
             <HoveredLink href="/events">Cultural Events</HoveredLink>
           </div>
         </MenuItem>

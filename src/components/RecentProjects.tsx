@@ -206,8 +206,8 @@ const cards = [
           The Group Dance Extravaganza brings together dancers from various
           backgrounds to showcase their talent in a thrilling and energetic
           performance. Teams will compete in a battle of choreography, style,
-          and creativity. <br /> <br /> Whether it's hip-hop, contemporary, or
-          traditional dance, this event promises to be a visual feast,
+          and creativity. <br /> <br /> Whether it&apos;s hip-hop, contemporary,
+          or traditional dance, this event promises to be a visual feast,
           highlighting the beauty of group coordination and the power of
           teamwork. Join us and experience the passion and artistry that dance
           can bring.
@@ -227,7 +227,7 @@ const cards = [
           The Miss Elegance Ramp Walk is a celebration of grace, poise, and
           style. Participants will take to the runway, showcasing their unique
           fashion sense and confidence. <br /> <br /> This event is not just
-          about beauty; it's about expressing individuality and empowerment
+          about beauty; it&apos;s about expressing individuality and empowerment
           through fashion. Join us for a night of glamour, where elegance meets
           attitude in a spectacular display of haute couture.
         </p>
@@ -263,12 +263,12 @@ const cards = [
       return (
         <p>
           The Couple Dance Delight is an enchanting event where duos take the
-          stage to perform mesmerizing dance routines. Whether it's ballroom,
-          salsa, or a modern duet, this event highlights the beauty of
+          stage to perform mesmerizing dance routines. Whether it&apos;s
+          ballroom, salsa, or a modern duet, this event highlights the beauty of
           synchronization and chemistry between partners. <br /> <br /> Watch as
           couples move in perfect harmony, telling a story through their
-          coordinated steps and shared energy. It's a dance of love, trust, and
-          expression.
+          coordinated steps and shared energy. It&apos;s a dance of love, trust,
+          and expression.
         </p>
       );
     },
@@ -284,7 +284,7 @@ const cards = [
         <p>
           The Melodic Voices Singing Competition is an event that brings
           together vocalists from all genres to showcase their talent. Whether
-          it's classical, pop, or rock, each singer will have the chance to
+          it&apos;s classical, pop, or rock, each singer will have the chance to
           captivate the audience with their voice. <br /> <br /> This
           competition is a celebration of music and the power of vocal
           expression. Join us to hear the next generation of singing talent and
@@ -306,8 +306,8 @@ const cards = [
           stage. Comedians will have the audience in stitches with their witty
           observations and hilarious anecdotes. <br /> <br /> From everyday life
           to absurd scenarios, no topic is off-limits as performers deliver
-          punchlines that resonate with everyone. It's a night of laughter and
-          fun, where the only rule is to keep the audience entertained.
+          punchlines that resonate with everyone. It&apos;s a night of laughter
+          and fun, where the only rule is to keep the audience entertained.
         </p>
       );
     },
@@ -344,8 +344,8 @@ const cards = [
           instrumentalists perform pieces that range from classical to
           contemporary. <br /> <br /> Each performance will highlight the beauty
           of different instruments, creating a symphony of sound that resonates
-          with the soul. Whether it's the piano, guitar, or violin, this event
-          celebrates the power of music without words.
+          with the soul. Whether it&apos;s the piano, guitar, or violin, this
+          event celebrates the power of music without words.
         </p>
       );
     },
@@ -363,9 +363,9 @@ const cards = [
           teams showcase their strength, agility, and strategy in this
           traditional Indian sport. <br /> <br /> Known for its physical and
           fast-paced nature, Kabbadi requires quick reflexes and teamwork.
-          Whether you're a seasoned player or a newcomer, this event promises to
-          be an exhilarating experience filled with nail-biting moments and
-          spectacular displays of skill.
+          Whether you&apos;re a seasoned player or a newcomer, this event
+          promises to be an exhilarating experience filled with nail-biting
+          moments and spectacular displays of skill.
         </p>
       );
     },
@@ -400,7 +400,7 @@ const cards = [
         <p>
           The Artistic Drawing Competition is an event that allows participants
           to express their creativity and talent through visual art. <br />{' '}
-          <br /> Whether it's sketching, painting, or digital art, this
+          <br /> Whether it&apos;s sketching, painting, or digital art, this
           competition is a platform for artists of all levels to showcase their
           skills and imagination. Join us for a day of inspiration, where art
           comes to life on paper and canvas.
@@ -439,7 +439,7 @@ const cards = [
           a series of matches, celebrating the spirit of this beloved sport.{' '}
           <br /> <br /> From powerful batting to strategic bowling, this
           tournament promises to deliver thrilling moments on the field. Whether
-          you're a player or a fan, join us for a day of exciting cricket
+          you&apos;re a player or a fan, join us for a day of exciting cricket
           action.
         </p>
       );
@@ -474,10 +474,10 @@ const cards = [
         <p>
           The Badminton Tournament is an energetic and competitive event where
           players showcase their agility, speed, and precision on the court.{' '}
-          <br /> <br /> Whether you're smashing the shuttle or defending against
-          your opponent, this tournament offers a fast-paced and exciting
-          experience for all badminton enthusiasts. Join us for a day of
-          thrilling matches and sportsmanship.
+          <br /> <br /> Whether you&apos;re smashing the shuttle or defending
+          against your opponent, this tournament offers a fast-paced and
+          exciting experience for all badminton enthusiasts. Join us for a day
+          of thrilling matches and sportsmanship.
         </p>
       );
     },
@@ -512,8 +512,8 @@ const cards = [
           The Carrom Tournament is a classic event where participants showcase
           their precision and skill in this popular board game. <br /> <br />{' '}
           Aiming for the perfect strike, players will compete in a test of
-          accuracy and strategy. Whether you're a seasoned player or a beginner,
-          this tournament promises a day of fun and competition.
+          accuracy and strategy. Whether you&apos;re a seasoned player or a
+          beginner, this tournament promises a day of fun and competition.
         </p>
       );
     },

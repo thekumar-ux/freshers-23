@@ -21,7 +21,7 @@ export function Approach() {
     {
       title: 'Watch our 2k22 Freshers party on YouTube',
       description:
-        'Catch all the excitement from last year"s Freshers" Party on YouTube. Relive the memorable moments and get a glimpse of what’s in store this year!',
+        'Catch all the excitement from last year"s Freshers" Party on YouTube. Relive the memorable moments and get a glimpse of what&apos;s in store this year!',
       skeleton: <SkeletonThree />,
       className:
         'col-span-1 lg:col-span-3 lg:border-r  dark:border-neutral-800',
