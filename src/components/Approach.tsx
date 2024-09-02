@@ -12,8 +12,7 @@ export function Approach() {
   const features = [
     {
       title: 'Purnea College of Engineering',
-      description:
-        'Purnea College of Engineering is committed to delivering top-notch technical education and nurturing future innovators. We aim to develop skilled professionals ready to make a difference',
+      description: '',
       skeleton: <SkeletonOne />,
       className:
         'col-span-1 lg:col-span-6 border-b lg:border-r dark:border-neutral-800',
@@ -40,15 +39,6 @@ export function Approach() {
         <h4 className="text-3xl lg:text-5xl lg:leading-tight max-w-5xl mx-auto text-center tracking-tight font-medium text-black dark:text-white">
           About us
         </h4>
-
-        <p className="text-sm lg:text-base  max-w-2xl  my-4 mx-auto text-neutral-500 text-center font-normal dark:text-neutral-300">
-          Purnea College of Engineering, established in 2017 and affiliated with
-          Bihar Engineering University, offers B.Tech programs in various
-          engineering disciplines. The college, inaugurated by Bihar&apos;s
-          Chief Minister in 2019, has AICTE-approved courses with intake
-          capacities of 30 for Mechanical and Mechatronics Engineering and 60
-          for other programs.
-        </p>
       </div>
 
       <div className="relative ">

@@ -17,6 +17,7 @@ const nextConfig = {
       'media.gettyimages.com',
       't3.ftcdn.net',
       'wallpapers.com',
+      't4.ftcdn.net',
     ],
   },
 };

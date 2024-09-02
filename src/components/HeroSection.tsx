@@ -22,7 +22,7 @@ function HeroSection() {
       />
       <div className="p-4 relative z-10 w-full text-center mt-9">
         <h1 className="mt-50 pt-20 md:mt-10 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
-          Welcome To PCE Purnea!
+          Hi 👋🏻, 2k23 Pce Fresher
         </h1>
         <div className="h-[10rem] flex justify-center items-center px-4">
           <div className="text-2xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
