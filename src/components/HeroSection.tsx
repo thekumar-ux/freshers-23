@@ -4,7 +4,7 @@ import { Button } from './ui/moving-border';
 import { TextGenerateEffect } from './ui/text-generate-effect';
 import { FlipWords } from './ui/flip-words';
 
-const word = `Join Purnea College of Engineering in welcoming the new wave of talent. This presentation outlines the benefits of sponsoring our Freshers' Party, scheduled for 15Th September 2024.`;
+const word = `Join Purnea College of Engineering in welcoming the new wave of talent. This presentation outlines the benefits of sponsoring our Freshers' Party, scheduled for 14Th September 2024.`;
 
 function HeroSection() {
   const words = [

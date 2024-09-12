@@ -18,73 +18,91 @@ export function AppleCardsCarouselDemo() {
   );
 }
 
-const DummyContent = () => {
+const Computerneex = () => {
+  const contentArray = [
+    {
+      description:
+        'Welcome to ComputroneeX, the ultimate destination for all your tech needs.',
+      imageUrl: '/cx3.jpg',
+      location:
+        'https://www.google.com/maps/place/Computroneex/@25.7745075,87.4783936,17z/data=!4m6!3m5!1s0x39eff97306cf20d9:0x80d6f33aaa893522!8m2!3d25.7751316!4d87.4769227!16s%2Fg%2F1v6qg0sk?entry=ttu&g_ep=EgoyMDI0MDkwOS4wIKXMDSoASAFQAw%3D%3D',
+    },
+    {
+      description:
+        'The future is here. ComputroneeX offers the latest in tech, from laptops to accessories, to help you stay ahead of the curve.',
+      imageUrl: '/cx2.jpg',
+      location:
+        'https://www.google.com/maps/place/Computroneex/@25.7745075,87.4783936,17z/data=!4m6!3m5!1s0x39eff97306cf20d9:0x80d6f33aaa893522!8m2!3d25.7751316!4d87.4769227!16s%2Fg%2F1v6qg0sk?entry=ttu&g_ep=EgoyMDI0MDkwOS4wIKXMDSoASAFQAw%3D%3D',
+    },
+    {
+      description:
+        'Get the best of both worlds with ComputroneeX. Our products are designed to be powerful and efficient, so you can get more done in less time.',
+      imageUrl: '/cx4.jpg',
+      location:
+        'https://www.google.com/maps/place/Computroneex/@25.7745075,87.4783936,17z/data=!4m6!3m5!1s0x39eff97306cf20d9:0x80d6f33aaa893522!8m2!3d25.7751316!4d87.4769227!16s%2Fg%2F1v6qg0sk?entry=ttu&g_ep=EgoyMDI0MDkwOS4wIKXMDSoASAFQAw%3D%3D',
+    },
+    {
+      description:
+        'ComputroneeX is your one-stop shop for all things tech. Whether you’re a student, a professional, or a creator, we have everything you need to succeed.',
+      imageUrl: '/cx1.jpg',
+      location:
+        'https://www.google.com/maps/place/Computroneex/@25.7745075,87.4783936,17z/data=!4m6!3m5!1s0x39eff97306cf20d9:0x80d6f33aaa893522!8m2!3d25.7751316!4d87.4769227!16s%2Fg%2F1v6qg0sk?entry=ttu&g_ep=EgoyMDI0MDkwOS4wIKXMDSoASAFQAw%3D%3D',
+    },
+    {
+      description:
+        'Upgrade your workspace with ComputroneeX. Our sleek and stylish products are designed to enhance your productivity and creativity.',
+      imageUrl: '/cx5.jpg',
+      location:
+        'https://www.google.com/maps/place/Computroneex/@25.7745075,87.4783936,17z/data=!4m6!3m5!1s0x39eff97306cf20d9:0x80d6f33aaa893522!8m2!3d25.7751316!4d87.4769227!16s%2Fg%2F1v6qg0sk?entry=ttu&g_ep=EgoyMDI0MDkwOS4wIKXMDSoASAFQAw%3D%3D',
+    },
+    {
+      description:
+        'Experience the future of tech with ComputroneeX. Our cutting-edge products are designed to help you work smarter, not harder.',
+      imageUrl: '/cx6.jpg',
+      location:
+        'https://www.google.com/maps/place/Computroneex/@25.7745075,87.4783936,17z/data=!4m6!3m5!1s0x39eff97306cf20d9:0x80d6f33aaa893522!8m2!3d25.7751316!4d87.4769227!16s%2Fg%2F1v6qg0sk?entry=ttu&g_ep=EgoyMDI0MDkwOS4wIKXMDSoASAFQAw%3D%3D',
+    },
+  ];
+
   return (
     <>
-      {[...new Array(3).fill(1)].map((_, index) => {
-        return (
-          <div
-            key={'dummy-content' + index}
-            className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4">
-            <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
-              <span className="font-bold text-neutral-700 dark:text-neutral-200">
-                The first rule of Apple club is that you boast about Apple club.
-              </span>{' '}
-              Keep a journal, quickly jot down a grocery list, and take amazing
-              class notes. Want to convert those notes to text? No problem.
-              Langotiya jeetu ka mara hua yaar is ready to capture every
-              thought.
-            </p>
-            <Image
-              src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGFydG5lcnNoaXB8ZW58MHx8MHx8fDA%3D"
-              alt="Macbook mockup from Aceternity UI"
-              height="500"
-              width="500"
-              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain"
-            />
+      {contentArray.map((content, index) => (
+        <div
+          key={'dummy-content' + index}
+          className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4">
+          <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+            <span className="font-bold text-neutral-700 dark:text-neutral-200">
+              {content.description.split('.')[0] + '.'}
+            </span>{' '}
+            {content.description.split('.').slice(1).join('.')}
+          </p>
+          <Image
+            src={content.imageUrl}
+            alt={`Macbook mockup ${index + 1}`}
+            height="500"
+            width="500"
+            className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain"
+          />
+          <div className="text-center mt-4">
+            <a
+              href={content.location}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 underline">
+              View location on Google Maps
+            </a>
           </div>
-        );
-      })}
+        </div>
+      ))}
     </>
   );
 };
 
 const data = [
   {
-    category: 'Artificial Intelligence',
-    title: 'You can do more with AI.',
-    src: 'https://plus.unsplash.com/premium_photo-1664304573379-eb323cb4b4a9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3BvbnNvcnxlbnwwfHwwfHx8MA%3D%3D',
-    content: <DummyContent />,
-  },
-  {
-    category: 'Productivity',
-    title: 'Enhance your productivity.',
-    src: 'https://images.unsplash.com/photo-1531554694128-c4c6665f59c2?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    content: <DummyContent />,
-  },
-  {
-    category: 'Product',
-    title: 'Launching the new Apple Vision Pro.',
-    src: 'https://images.unsplash.com/photo-1713869791518-a770879e60dc?q=80&w=2333&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    content: <DummyContent />,
-  },
-
-  {
-    category: 'Product',
-    title: 'Maps for your iPhone 15 Pro Max.',
-    src: 'https://images.unsplash.com/photo-1599202860130-f600f4948364?q=80&w=2515&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    content: <DummyContent />,
-  },
-  {
-    category: 'iOS',
-    title: 'Photography just got better.',
-    src: 'https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    content: <DummyContent />,
-  },
-  {
-    category: 'Hiring',
-    title: 'Hiring for a Staff Software Engineer',
-    src: 'https://images.unsplash.com/photo-1511984804822-e16ba72f5848?q=80&w=2048&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    content: <DummyContent />,
+    category: 'hp World',
+    title: 'ComputroneeX',
+    src: '/computerneex_thumbnail.jpg',
+    content: <Computerneex />,
   },
 ];
