@@ -49,7 +49,7 @@ const nextConfig = {
     defaultLocale: 'en',
   },
   experimental: {
-    optimizeCss: true,
+    optimizeCss: false, // CSS optimization ko disable karein
   },
 };
 

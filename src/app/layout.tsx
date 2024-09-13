@@ -58,7 +58,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
-        <link rel="canonical" href="https://freshers-23.vercel.app" />
+        {/* <link rel="canonical" href="https://freshers-23.vercel.app" /> */}
         {/* <link rel="alternate" hrefLang="en" href="https://freshers-23.vercel.app/en" /> */}
         {/* <link rel="alternate" hrefLang="hi" href="https://freshers-23.vercel.app/hi" /> */}
       </head>
