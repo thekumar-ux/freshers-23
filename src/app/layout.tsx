@@ -44,9 +44,9 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: 'your-google-verification-code',
-    yandex: 'your-yandex-verification-code',
-    yahoo: 'your-yahoo-verification-code',
+    google: 'G4iEeDPTf3dszjIt0SXYcSmhfCpAQktCGa4fM_f2f0c',
+    // yandex: 'your-yandex-verification-code',
+    // yahoo: 'your-yahoo-verification-code',
   },
 };
 
@@ -59,8 +59,8 @@ export default function RootLayout({
     <html lang="en" className="dark">
       <head>
         <link rel="canonical" href="https://freshers-23.vercel.app" />
-        <link rel="alternate" hrefLang="en" href="https://freshers-23.vercel.app/en" />
-        <link rel="alternate" hrefLang="hi" href="https://freshers-23.vercel.app/hi" />
+        {/* <link rel="alternate" hrefLang="en" href="https://freshers-23.vercel.app/en" /> */}
+        {/* <link rel="alternate" hrefLang="hi" href="https://freshers-23.vercel.app/hi" /> */}
       </head>
       <body className={inter.className}>
         <div className="relative w-full flex items-center justify-center">
